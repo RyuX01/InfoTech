@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 480px) {
+    /* For phone: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 851px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+@media only screen and (max-width: 850px) {
+    /* For tablets: */
+    .detail-categories p{
+        width: 200px;
+    }
+    
+    .dropdown-menu{
+        z-index: 1;
+    }
+    .search-bar{
+        width: 350px;
+    }
+    .wrapper{
+        max-width: 550px;
+        margin: 229px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo{
+        padding: 10px;
+        padding-bottom: 2px;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .menu-bar{
+        margin-top: 5px;
+    }
+    .dropdown-menu{
+        z-index: 1;
+    }
+    .navbar{
+        display: none;
+    }
+    .search-bar{
+        width: 275px;
+        height: 30px;
+        margin: 20px 50px;
+    }
+    .header{
+        height: 80px;
+    }
+    .plus{
+        margin: 40px 10px;
+        margin-bottom: 0px;
+        width: 70px;
+        height: 30px;
+    }
+    .pre-btn, .nxt-btn{
+        display: none;
+    }
+    .product-category{
+        font-size: 25px;
+        margin-left: 10px;
+        width: 240px;
+        margin-right: 0px;
+    }
+    .product-container{
+        padding: 0px 40px;
+    }
+    .offre-etudiants{
+        margin: 20px 10px ;
+    }
+    .categories-cards{
+        width: 180px;
+        margin: 3px;
+    }
+    .categories-cards a img{
+        width: 100px;
+    }
+    .categories-cards a p{
+        display: none;
+    }
+    .categories-title{
+        font-size: 25px;
+        margin-left: 10px;
+        width: 240px;
+        margin-right: 0px;
+    }
+    .product-cards{
+        display: flex;
+        margin: 0px 10px;
+    }
+    .product-cards1{
+        display: flex;
+        margin: 0px 10px;
+    }
+    .website-detail{
+        margin: 20px;
+    }
+    .detail-categories p{
+        display: none;
+    }
+    .footer-grid{
+        padding: 0px;
+    }
+    .socialmedia{
+        width: 25px;
+        padding: 5px 0px;
+    }
+    .footer-options{
+        font-size: small;
+    }
+    .footer-titles{
+        font-size: large;
+    }
+    .wrapper{
+        max-width: 330px;
+        margin: 98px auto;
+    }
+}
