@@ -6,6 +6,7 @@ $product_price = $_POST['product_price'];
 
 include('model/database.php');
 include ('model/cart.php');
+//try to add product.php
 
 $db = db_connect();
 

@@ -9,6 +9,7 @@ function product_get_all($db) {
 
     return $requete;
 }
+
 function product_get_one($db,$id) {
 
     $sql = 'select * from product where product_id = :id';
