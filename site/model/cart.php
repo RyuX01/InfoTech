@@ -22,7 +22,6 @@ function cart_get_last($db) {
     return $requete;
 }
 
-
 function cart_add($db,$product_id,$cart_id,$product_qt,$product_price){
 
     $sql = " insert into cart (product_id,cart_id,product_qt,product_price) 
@@ -38,9 +37,7 @@ $requete->execute();
 return $requete;
 }
 
-
 // Button supprimer
-
 function cart_delete_one($db,$id) {
     $sql = 'delete from cart where cart_id = :id';
 
