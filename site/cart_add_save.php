@@ -1,8 +1,7 @@
 <?php
 
 include('model/database.php');
-include ('model/cart.php');
-//try to add product.php
+include('model/cart.php');
 
 $db = db_connect();
 

@@ -1,4 +1,3 @@
-
 <!-- header section -->
 <?php 
 
@@ -21,6 +20,7 @@ $carts = $requete-> fetchAll();?>
                 <div class="cart-title">
                     <h1>Shopping Cart</h1>
                 </div>
+
                 <div class="column-labels">
                     <label class="product-image" id="image-column">Image</label>
                     <label class="product-details">Product</label>
@@ -29,31 +29,39 @@ $carts = $requete-> fetchAll();?>
                     <label class="product-removal">Remove</label>
                     <label class="product-line-price">Total</label>
                 </div>
+
                 <hr>
+                
                 <div class="products-panier">
                 <?php foreach ($carts as $cart){?>
                     <div class="product-panier">
                         <div class="product-image">
                             <img src="../site/uploads/<?php echo $cart['product_id'];?>/main.png">
                         </div>
+
                         <div class="product-details">
                             <div class="product-title"><?php echo $cart['product_name'];?></div>
                         </div>
+
                         <div class="product-price"><?php echo $cart['product_price'];?></div>
                         <div class="product-quantity">
                             <input type="number" value="2" min="1">
                         </div>
+
                         <div class="product-removal">
+                            <a href="cart_delete.php?id_sent=<?php echo $cart['cart_id'];?>">
                             <button class="remove-product">
                             Remove
                             </button>
                         </div>
+
                         <div class="product-line-price"><?php echo $cart['product_price'];?></div>
                     </div>
                 <?php }?>
                 </div>
             </div>
         </div>
+
         <div class="totals">
             <div class="cart-title">
                 <h1>Cart Totals</h1>

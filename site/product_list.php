@@ -30,7 +30,7 @@ $products = $requete-> fetchAll();
 
                             <hr>
 
-                            <a href="panier.php">
+                            <a href="panier.php?id_sent=<?php echo $cart['cart_id'];?>">
                                 <button class="add-cart-btn" action="cart_add_save.php">ajouter au panier</button>
                             </a>                
 
@@ -51,7 +51,7 @@ $products = $requete-> fetchAll();
 <!-- footer section -->
 
 
-<script>
+<!-- <script>
     /* Set rates + misc */
     var fadeTime = 1000;
 
@@ -69,4 +69,4 @@ $products = $requete-> fetchAll();
         recalculateCart();
     });
     }
-</script>
+</script> -->
